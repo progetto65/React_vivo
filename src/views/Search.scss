@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul,li{
+    list-style: none;
+}
+html,body,#app,#home{
+    min-height:100vh
+}
+html{
+    font-size:217%
+}
+.searchbox{
+    font-size: 0;
+    line-height: 0;
+    padding: .266667rem 4.44444vw;
+}
+.content-title{
+    font-size: 3.7037vw;
+    line-height: 5.18519vw;
+    color: #999;
+    margin-bottom: 3.7037vw;
+    margin-top:12px
+}
+
+.hot{
+    .hot-title{
+        height: 1.65rem;
+        padding: 0 0.43rem;
+        font-size: .51rem;
+        font-weight: 400;
+        line-height: 1.65rem;
+        color: #333;
+        text-align: center;
+        .phonetitle{
+            &:before,&:after{
+            
+                margin: 0 0.15rem;
+                display: inline-block;
+                content: " ";
+                height: 1px;
+                width: 0.54rem;
+                background-color: #9c9c9c;
+                vertical-align: middle;
+            }
+        }
+    }
+    
+    .hot-list{
+        flex:1;
+        
+        .hot-item{
+        
+            background-color: #fff;
+            overflow: hidden;
+            position: relative;
+            display: inline-block;
+            width: 50%;
+            font-size: 0;
+            text-align: center;
+            vertical-align: top;
+            img{
+                margin: 0.81rem 0 0;
+                width: 3.09rem;
+                height: 3.09rem;
+                display: inline-block;
+                
+            }
+            >h3{
+                margin: 0.48rem 0 0.21rem;
+                padding: 0 0.75rem;
+                font-size: .43rem;
+                line-height: 1.2;
+                font-weight: 700;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                color: #333;
+            }
+            >p{
+                line-height: 1.3;
+            }
+            .promotion{
+                margin: 0;
+                padding: 0 0.6rem;
+                font-size: .31rem;
+                line-height: 1.3;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                color: #000;
+            }
+            .item-price{
+                padding: 0.9rem 0 0.7rem;
+                font-size: .43rem;
+                color: #f81200;
+                &:before{
+                    content:'￥'
+                }
+            }
+        }
+
+        
+    }
+
+}

@@ -1,0 +1,30 @@
+.usercenter{
+    
+    height: 108px;
+    .logo{
+        height: 0.8rem;
+        
+        margin: 0 auto;
+        margin-top: 0.6rem;
+        text-align: center;
+        >img{
+            width: 2.933333rem;
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+        >p{
+            font-weight: 700;
+            font-size: .52rem;
+            line-height: .63rem;
+            text-align: center;
+            color: #252525;
+            margin-top: 0.48rem;
+        }
+    }
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
