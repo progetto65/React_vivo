@@ -40,7 +40,7 @@ export default () => {
         to="/search"
         style={{ fontSize: 14, color: "blue", textDecoration: "none" }}
       >
-        搜索
+        搜索1
       </Link>
     </div>
   );
